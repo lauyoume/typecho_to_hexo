@@ -1,0 +1,10 @@
+{
+  "name": "typecho_to_markdown",
+  "version": "0.0.1",
+  "description": "Export typecho blog article to Markdown file.",
+  "dependencies": {
+    "mysql": "*",
+    "to-markdown":"*",
+    "moment":"*"
+  }
+}
