@@ -1,7 +1,8 @@
-typecho_to_hexo
+typecho to hexo
 ===============
 
 Convert typecho blog to hexo by nodejs
+
 导出typecho 博客 为 hexo支持的Markdown文档
 
 版本
