@@ -12,8 +12,11 @@ var client = dao.createConnection({
     database: config.database
 });
 
-var query_post = "SELECT cid,title,slug,created,modified,text,status FROM " + config.tablePrefix + "contents WHERE `type` ='post' ";
-var query_meta = "SELECT m.name,m.slug,m.type,m.description FROM " + config.tablePrefix + "relationships r INNER JOIN " + config.tablePrefix + "metas m ON r.mid=m.mid WHERE r.cid = ?";
+var query_post = "SELECT cid,title,slug,created,modified,text,status FROM " + 
+                        config.tablePrefix + "contents WHERE `type` ='post' ";
+var query_meta = "SELECT m.name,m.slug,m.type,m.description FROM " + 
+                        config.tablePrefix + "relationships r INNER JOIN " + 
+                        config.tablePrefix + "metas m ON r.mid=m.mid WHERE r.cid = ?";
 
 
 client.query(query_post,function(err,rows){
