@@ -5,6 +5,7 @@
   "dependencies": {
     "mysql": "*",
     "to-markdown":"*",
-    "moment":"*"
+    "moment":"*",
+    "async":"*"
   }
 }

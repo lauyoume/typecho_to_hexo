@@ -4,5 +4,6 @@
     "user": "root",
     "password":  "root",
     "database": "lauyoume_blog",
-    "tablePrefix" :"typecho_"
+    "tablePrefix" :"typecho_",
+    "base":"http://whyyou.me/"
 }
