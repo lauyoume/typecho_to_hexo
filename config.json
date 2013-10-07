@@ -5,5 +5,6 @@
     "password":  "root",
     "database": "lauyoume_blog",
     "tablePrefix" :"typecho_",
-    "base":"http://whyyou.me/"
+    "base":"http://whyyou.me/",
+    "basetitle": " - 简而美 • Simple Beauty"
 }

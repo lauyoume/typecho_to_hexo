@@ -82,6 +82,7 @@ async.parallel([
                             fs.appendFileSync(filename, "tags: " + tags.toString() + "\n");
                         }
                     }
+                    fs.appendFileSync(filename, "thread_key: " + r.cid + "\n");
                     fs.appendFileSync(filename, "---\n\n");
                     fs.appendFileSync(filename, toMarkdown(text));
                     rs++;
