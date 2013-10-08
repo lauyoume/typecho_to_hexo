@@ -1,5 +1,5 @@
 {
-  "name": "typecho_to_markdown",
+  "name": "typecho_to_hexo",
   "version": "0.0.1",
   "description": "Export typecho blog article to Markdown file.",
   "dependencies": {
